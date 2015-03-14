@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 d1 = Day.create(date: DateTime.parse('11th Jan 2015 00:00 AM'))
-Event.create(name: "Ben Visiting", from: DateTime.parse('11th Jan 2015 00:00 AM'), to: DateTime.parse('12th Jan 2015 00:00 AM'), location: "", day_id: d1.id)
+Event.create(name: "Ben Visiting", from: DateTime.parse('11th Jan 2015 00:00 AM'), to: DateTime.parse('12th Jan 2015 00:00 AM'), location: "Yo mama", day_id: d1.id)
 
 d2 = Day.create(date: DateTime.parse('12th Jan 2015 00:00 AM'))
 

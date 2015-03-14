@@ -4,5 +4,11 @@ class DaysController < ApplicationController
 		@days = Day.all
 	end
 
+	def show
+		@day = Day.find(params[:id])
+		@events = @day.events
+
+	end
+
 
 end

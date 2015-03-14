@@ -24,4 +24,5 @@ Event.create(name: "Casual Friday", from: DateTime.parse('16th Jan 2015 00:00 AM
 Event.create(name: "Running", from: DateTime.parse('16th Jan 2015 08:00 PM'), to: DateTime.parse('16th Jan 2015 08:30 PM'), location: "", day_id: d6.id)
 Event.create(name: "Grocery Shopping", from: DateTime.parse('16th Jan 2015 09:00 PM'), to: DateTime.parse('16th Jan 2015 09:30 AM'), location: "", day_id: d6.id)
 
-d6 = Day.create(date: DateTime.parse('17th Jan 2015 00:00 AM'))
+d7 = Day.create(date: DateTime.parse('17th Jan 2015 00:00 AM'))
+Event.create(name: "It's a saturday! First CA class", from: DateTime.parse('17th Jan 2015 07:00 PM'), to: DateTime.parse('17th Jan 2015 08:00 PM'), location: "", day_id: d7.id)

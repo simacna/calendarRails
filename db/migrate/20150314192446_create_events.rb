@@ -4,6 +4,7 @@ class CreateEvents < ActiveRecord::Migration
       t.string :name
       t.datetime :from
       t.datetime :to
+      t.string :location
       t.references :day	
       t.timestamps
     end

@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20150314192446) do
 
   create_table "days", force: true do |t|
-    t.integer  "date"
+    t.datetime "date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20150314192446) do
     t.string   "name"
     t.datetime "from"
     t.datetime "to"
+    t.string   "location"
     t.integer  "day_id"
     t.datetime "created_at"
     t.datetime "updated_at"
